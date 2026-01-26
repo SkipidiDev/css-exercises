@@ -24,3 +24,29 @@ img {
   justify-content: center;
   background: #eee;
 }
+/* solution */
+
+body {
+  /* item text is centered */
+  text-align: center;
+}
+
+.group {
+  /* flex is row by default */
+  display: flex;
+  /* the items and the title are centered on the page (horizontally) */
+  justify-content: center;
+  /* 52px between each item */
+  gap: 52px;
+}
+
+.title {
+  /* 32px between the title and the 'items */
+  margin-bottom: 32px;
+}
+
+.item {
+  /* items are 200px wide and the text wraps */
+  max-width: 200px;
+}
+
