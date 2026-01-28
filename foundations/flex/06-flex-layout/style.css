@@ -24,3 +24,59 @@ input {
   padding: 8px 24px;
   width: 400px;
 }
+
+/* solution */
+body,
+.header,
+.content,
+.footer,
+.left-links,
+.right-links {
+  display: flex;
+}
+
+body,
+.content {
+  flex-direction: column;
+}
+
+.header,
+.footer {
+  justify-content: space-between;
+  padding: 16px;
+}
+
+.content {
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer {
+  background-color: #eeeeee;
+}
+
+.buttons button {
+  padding: 8px 16px;
+}
+
+.content,
+.left-links,
+.right-links {
+  gap: 16px;
+}
+
+.left-links,
+.right-links {
+  /* ul has both a default margin and padding */
+  padding: 0;
+  margin: 0;
+  /* remove the bullet points */
+  list-style: none;
+}
+
+a {
+  /* remove blue underline */
+  text-decoration: none;
+  color: gray;
+}
