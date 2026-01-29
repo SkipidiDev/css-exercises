@@ -28,6 +28,13 @@ body {
   border-radius: 4px;
 }
 
+/* solution */
+body, .header,
+.sidebar, .content,
+.footer, .group {
+  display: flex;
+}
+
 .header {
   /* The header text is size 32px and weight 900 */
   font-size: 32px;
