@@ -67,6 +67,11 @@ body {
   text-decoration: none;
 }
 
+.content {
+  /* 8px padding around the 'cards' section */
+  padding: 48px;
+}
+
 .footer {
   /* footer text is centered horizontally and vertically */
   justify-content: center;
