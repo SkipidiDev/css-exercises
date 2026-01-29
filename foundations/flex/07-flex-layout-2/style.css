@@ -54,6 +54,11 @@ body {
   flex: 1;
 }
 
+.sidebar {
+  /* sidebar has 16px padding */
+  padding: 16px;
+}
+
 
 .sidebar a {
   /* sidebar links are size 24px, are white, and do not have the underline text decoration */
