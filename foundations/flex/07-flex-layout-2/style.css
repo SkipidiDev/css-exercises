@@ -49,6 +49,12 @@ body {
 }
 
 
+.group {
+  /* footer is pushed to the bottom of the screen */
+  flex: 1;
+}
+
+
 .footer {
   /* footer text is centered horizontally and vertically */
   justify-content: center;
