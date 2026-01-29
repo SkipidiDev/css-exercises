@@ -55,6 +55,13 @@ body {
 }
 
 
+.sidebar a {
+  /* sidebar links are size 24px, are white, and do not have the underline text decoration */
+  font-size: 24px;
+  color: white;
+  text-decoration: none;
+}
+
 .footer {
   /* footer text is centered horizontally and vertically */
   justify-content: center;
