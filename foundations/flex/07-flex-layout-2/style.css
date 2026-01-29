@@ -59,6 +59,11 @@ body {
   padding: 16px;
 }
 
+.sidebar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
 
 .sidebar a {
   /* sidebar links are size 24px, are white, and do not have the underline text decoration */
