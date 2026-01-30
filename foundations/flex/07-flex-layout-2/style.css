@@ -55,6 +55,8 @@ body {
 }
 
 .sidebar {
+  /* sidebar is 300px wide (and it doesn't shrink) */
+  flex-shrink: 0;
   /* sidebar has 16px padding */
   padding: 16px;
 }
