@@ -35,6 +35,10 @@ body, .header,
   display: flex;
 }
 
+body {
+  flex-direction: column;
+}
+
 .header {
   /* The header text is size 32px and weight 900 */
   font-size: 32px;
@@ -43,11 +47,6 @@ body, .header,
   padding-left: 16px;
   align-items: center;
 }
-
-body {
-  flex-direction: column;
-}
-
 
 .group {
   /* footer is pushed to the bottom of the screen */
@@ -79,7 +78,9 @@ body {
 }
 
 .content {
-  /* 8px padding around the 'cards' section */
+  flex-wrap: wrap;
+  gap: 24px;
+  /* 48px padding around the 'cards' section */
   padding: 48px;
 }
 
