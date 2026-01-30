@@ -83,6 +83,11 @@ body {
   padding: 48px;
 }
 
+.card {
+  flex-basis: 28%;
+  padding: 16px;
+}
+
 .footer {
   /* footer text is centered horizontally and vertically */
   justify-content: center;
