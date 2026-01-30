@@ -74,6 +74,10 @@ body {
   text-decoration: none;
 }
 
+.sidebar li {
+  margin-bottom: 16px;
+}
+
 .content {
   /* 8px padding around the 'cards' section */
   padding: 48px;
